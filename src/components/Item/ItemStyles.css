@@ -1,0 +1,16 @@
+.items .image-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400 px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.items .image-grid .images {
+  height: 100px;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  margin: 20px;
+}
+/*# sourceMappingURL=ItemStyles.css.map */

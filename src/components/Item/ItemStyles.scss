@@ -1,0 +1,12 @@
+.items{
+    .image-grid{
+        display: flex;
+        width: 400 px;
+        flex-wrap: wrap;
+        .images{
+            height: 100px;
+            flex-basis: 20%;
+            margin: 20px;
+        }
+    }
+}

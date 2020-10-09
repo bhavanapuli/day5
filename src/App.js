@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import PhotoContextProvider from "./context/PhotoContext";
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
-import Header from "./components/Header";
-import Item from "./components/Item";
-import Search from "./components/Search";
+import Item from "./components/Item/Item";
+import Search from "./components/Search/Search";
 import NotFound from "./components/NotFound";
+import TopContainer from "./components/TopContainer/TopContainer";
 
 class App extends Component {
   // Prevent page reload, clear input, set URL and push history on submit
@@ -22,7 +22,7 @@ class App extends Component {
           <div className="container">
             <Route
               render={props => (
-                <Header
+                <TopContainer
                   handleSubmit={this.handleSubmit}
                   history={props.history}
                 />

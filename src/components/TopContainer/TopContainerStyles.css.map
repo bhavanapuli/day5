@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "TopContainerStyles.scss"
+    ],
+    "names": [],
+    "file": "TopContainerStyles.css"
+}
